@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/georgjr2/.nvm/versions/node/v6.10.0/bin/node',
+1 verbose cli   '/home/georgjr2/.nvm/versions/node/v6.10.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'htu21d' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData htu21d
+8 silly fetchNamedPackageData htu21d
+9 silly mapToRegistry name htu21d
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'htu21d',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'htu21d',
+12 silly mapToRegistry   name: 'htu21d',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/htu21d
+14 verbose get https://registry.npmjs.org/htu21d not expired, no request
+15 silly install normalizeTree
+16 silly loadCurrentTree Finishing
+17 silly loadIdealTree Starting
+18 silly install loadIdealTree
+19 silly cloneCurrentTree Starting
+20 silly install cloneCurrentTreeToIdealTree
+21 silly cloneCurrentTree Finishing
+22 silly loadShrinkwrap Starting
+23 silly install loadShrinkwrap
+24 silly loadShrinkwrap Finishing
+25 silly loadAllDepsIntoIdealTree Starting
+26 silly install loadAllDepsIntoIdealTree
+27 silly resolveWithNewModule htu21d@0.2.0 checking installable status
+28 silly cache add args [ 'htu21d', null ]
+29 verbose cache add spec htu21d
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: 'htu21d',
+30 silly cache add   scope: null,
+30 silly cache add   escapedName: 'htu21d',
+30 silly cache add   name: 'htu21d',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: 'latest',
+30 silly cache add   type: 'tag' }
+31 silly addNamed htu21d@latest
+32 verbose addNamed "latest" is being treated as a dist-tag for htu21d
+33 info addNameTag [ 'htu21d', 'latest' ]
+34 silly mapToRegistry name htu21d
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'htu21d',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   escapedName: 'htu21d',
+37 silly mapToRegistry   name: 'htu21d',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/htu21d
+39 verbose addNameTag registry:https://registry.npmjs.org/htu21d not in flight; fetching
+40 verbose get https://registry.npmjs.org/htu21d not expired, no request
+41 silly addNameTag next cb for htu21d with tag latest
+42 silly addNamed htu21d@0.2.0
+43 verbose addNamed "0.2.0" is a plain semver version for htu21d
+44 silly cache afterAdd htu21d@0.2.0
+45 verbose afterAdd /home/georgjr2/.npm/htu21d/0.2.0/package/package.json not in flight; writing
+46 verbose correctMkdir /home/georgjr2/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /home/georgjr2/.npm/htu21d/0.2.0/package/package.json written
+48 silly loadAllDepsIntoIdealTree Finishing
+49 silly loadIdealTree Finishing
+50 silly currentTree lib
+51 silly idealTree lib
+51 silly idealTree └── htu21d@0.2.0
+52 silly generateActionsToTake Starting
+53 silly install generateActionsToTake
+54 silly generateActionsToTake Finishing
+55 silly diffTrees action count 1
+56 silly diffTrees add htu21d@0.2.0
+57 silly decomposeActions action count 8
+58 silly decomposeActions fetch htu21d@0.2.0
+59 silly decomposeActions extract htu21d@0.2.0
+60 silly decomposeActions test htu21d@0.2.0
+61 silly decomposeActions preinstall htu21d@0.2.0
+62 silly decomposeActions build htu21d@0.2.0
+63 silly decomposeActions install htu21d@0.2.0
+64 silly decomposeActions postinstall htu21d@0.2.0
+65 silly decomposeActions finalize htu21d@0.2.0
+66 silly runTopLevelLifecycles Starting
+67 silly executeActions Starting
+68 silly install executeActions
+69 silly doSerial global-install 0
+70 silly doParallel fetch 1
+71 verbose correctMkdir /home/georgjr2/.npm/_locks correctMkdir not in flight; initializing
+72 verbose lock using /home/georgjr2/.npm/_locks/staging-b948f6ce33eee5d3.lock for /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging
+73 silly doParallel extract 1
+74 silly extract htu21d@0.2.0
+75 verbose unbuild lib/node_modules/.staging/htu21d-8a189e7f
+76 silly gentlyRm /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f is being purged from base /home/georgjr2/.nvm/versions/node/v6.10.0
+77 verbose gentlyRm don't care about contents; nuking /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f
+78 verbose tar unpack /home/georgjr2/.npm/htu21d/0.2.0/package.tgz
+79 verbose tar unpacking to /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f
+80 silly gentlyRm /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f is being purged
+81 verbose gentlyRm don't care about contents; nuking /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f
+82 silly gunzTarPerm modes [ '775', '664' ]
+83 silly gunzTarPerm extractEntry package.json
+84 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+85 silly gunzTarPerm extractEntry .npmignore
+86 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+89 silly gunzTarPerm extractEntry LICENSE
+90 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+91 silly gunzTarPerm extractEntry main.js
+92 silly gunzTarPerm modified mode [ 'main.js', 420, 436 ]
+93 silly gunzTarPerm extractEntry binding.gyp
+94 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 436 ]
+95 silly gunzTarPerm extractEntry src/htu21d.cc
+96 silly gunzTarPerm modified mode [ 'src/htu21d.cc', 420, 436 ]
+97 silly gunzTarPerm extractEntry src/htu21d.h
+98 silly gunzTarPerm modified mode [ 'src/htu21d.h', 420, 436 ]
+99 silly gunzTarPerm extractEntry src/htu21d_impl.cc
+100 silly gunzTarPerm modified mode [ 'src/htu21d_impl.cc', 420, 436 ]
+101 silly gentlyRm /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f/node_modules is being purged
+102 verbose gentlyRm don't care about contents; nuking /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f/node_modules
+103 silly doParallel preinstall 1
+104 silly preinstall htu21d@0.2.0 /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f
+105 info lifecycle htu21d@0.2.0~preinstall: htu21d@0.2.0
+106 silly lifecycle htu21d@0.2.0~preinstall: no script for preinstall, continuing
+107 silly doReverseSerial remove 0
+108 silly doSerial move 0
+109 silly doSerial finalize 1
+110 silly finalize /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/htu21d
+111 silly doSerial build 1
+112 silly build htu21d@0.2.0
+113 info linkStuff htu21d@0.2.0
+114 silly linkStuff htu21d@0.2.0 has /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules as its parent node_modules
+115 silly linkStuff htu21d@0.2.0 is part of a global install
+116 silly linkStuff htu21d@0.2.0 is installed into a global node_modules
+117 silly linkStuff htu21d@0.2.0 is installed into the top-level global node_modules
+118 verbose linkBins htu21d@0.2.0
+119 verbose linkMans htu21d@0.2.0
+120 silly doSerial global-link 0
+121 silly doParallel update-linked 0
+122 silly doSerial install 1
+123 silly install htu21d@0.2.0 /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging/htu21d-8a189e7f
+124 info lifecycle htu21d@0.2.0~install: htu21d@0.2.0
+125 verbose lifecycle htu21d@0.2.0~install: unsafe-perm in lifecycle true
+126 verbose lifecycle htu21d@0.2.0~install: PATH: /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/npm/bin/node-gyp-bin:/home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/htu21d/node_modules/.bin:/home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.bin:/home/georgjr2/.nvm/versions/node/v6.10.0/bin:/home/georgjr2/bin:/home/georgjr2/.local/bin:/home/georgjr2/bin:/home/georgjr2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+127 verbose lifecycle htu21d@0.2.0~install: CWD: /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/htu21d
+128 silly lifecycle htu21d@0.2.0~install: Args: [ '-c', 'node-gyp rebuild' ]
+129 silly lifecycle htu21d@0.2.0~install: Returned: code: 1  signal: null
+130 info lifecycle htu21d@0.2.0~install: Failed to exec install script
+131 verbose unlock done using /home/georgjr2/.npm/_locks/staging-b948f6ce33eee5d3.lock for /home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/.staging
+132 silly rollbackFailedOptional Starting
+133 silly rollbackFailedOptional Finishing
+134 silly runTopLevelLifecycles Finishing
+135 silly install printInstalled
+136 verbose stack Error: htu21d@0.2.0 install: `node-gyp rebuild`
+136 verbose stack Exit status 1
+136 verbose stack     at EventEmitter.<anonymous> (/home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+136 verbose stack     at emitTwo (events.js:106:13)
+136 verbose stack     at EventEmitter.emit (events.js:191:7)
+136 verbose stack     at ChildProcess.<anonymous> (/home/georgjr2/.nvm/versions/node/v6.10.0/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+136 verbose stack     at emitTwo (events.js:106:13)
+136 verbose stack     at ChildProcess.emit (events.js:191:7)
+136 verbose stack     at maybeClose (internal/child_process.js:877:16)
+136 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+137 verbose pkgid htu21d@0.2.0
+138 verbose cwd /home/georgjr2/nordium-rpi
+139 error Linux 4.13.0-36-generic
+140 error argv "/home/georgjr2/.nvm/versions/node/v6.10.0/bin/node" "/home/georgjr2/.nvm/versions/node/v6.10.0/bin/npm" "install" "-g" "htu21d"
+141 error node v6.10.0
+142 error npm  v3.10.10
+143 error code ELIFECYCLE
+144 error htu21d@0.2.0 install: `node-gyp rebuild`
+144 error Exit status 1
+145 error Failed at the htu21d@0.2.0 install script 'node-gyp rebuild'.
+145 error Make sure you have the latest version of node.js and npm installed.
+145 error If you do, this is most likely a problem with the htu21d package,
+145 error not with npm itself.
+145 error Tell the author that this fails on your system:
+145 error     node-gyp rebuild
+145 error You can get information on how to open an issue for this project with:
+145 error     npm bugs htu21d
+145 error Or if that isn't available, you can get their info via:
+145 error     npm owner ls htu21d
+145 error There is likely additional logging output above.
+146 verbose exit [ 1, true ]
